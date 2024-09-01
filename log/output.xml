@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.5 on darwin)" generated="2024-09-01T10:49:36.000572" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="/Users/yuriespinosa/Developer/webtesting/tests.robot">
+<test id="s1-t1" name="CT 01 - Acesso ao menu &quot;Eletrônicos&quot;" line="2">
+<kw name="Acessar a home page do site Amazon.com.br">
+<msg time="2024-09-01T10:49:36.014110" level="FAIL">No keyword with name 'Acessar a home page do site Amazon.com.br' found.</msg>
+<status status="FAIL" start="2024-09-01T10:49:36.014046" elapsed="0.001020">No keyword with name 'Acessar a home page do site Amazon.com.br' found.</status>
+</kw>
+<kw name="Entrar no menu &quot;Eletrônicos&quot;">
+<status status="NOT RUN" start="2024-09-01T10:49:36.015354" elapsed="0.000107"/>
+</kw>
+<kw name="Verificar se o título da página fica &quot;Eletrônicos e Tecnologia | Amazon.com.br&quot;">
+<status status="NOT RUN" start="2024-09-01T10:49:36.015639" elapsed="0.000181"/>
+</kw>
+<kw name="Verificar se aparece a frase &quot;Eletrônicos e Tecnologia&quot;">
+<status status="NOT RUN" start="2024-09-01T10:49:36.015939" elapsed="0.000061"/>
+</kw>
+<kw name="Verificar se aparece a categoria &quot;Computadores e Informática&quot;">
+<status status="NOT RUN" start="2024-09-01T10:49:36.016110" elapsed="0.000060"/>
+</kw>
+<doc>Esse teste verifica o menu Eletronicos da site Amazom.com.br
+e verifica a categoria computadores e informatica</doc>
+<status status="FAIL" start="2024-09-01T10:49:36.013364" elapsed="0.003484">No keyword with name 'Acessar a home page do site Amazon.com.br' found.</status>
+</test>
+<status status="FAIL" start="2024-09-01T10:49:36.005252" elapsed="0.012701"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tests">Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
