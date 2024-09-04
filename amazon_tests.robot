@@ -8,7 +8,7 @@ Test Teardown  Fechar o navegador
 CT 01 - Acesso ao menu "Eletrônicos"
     [Documentation]  Esse teste verifica o menu Eletronicos da site Amazom.com.br
     ...              e verifica a categoria computadores e informatica
-    [Tags]           menus categorias regression
+    [Tags]           menus    categorias    regression
     Acessar a home page do site Amazon.com.br
     Verificar se o título da página fica "Amazon.com.br | Tudo pra você, de A a Z."
     Entrar no menu "Eletrônicos"
@@ -20,7 +20,7 @@ CT 01 - Acesso ao menu "Eletrônicos"
 CT 02 - Pesquisa de um Produto
     [Documentation]  Este teste pesquisa por um Produto e valida que ele aparece
     ...              em tela dentro da lista de produtos achados.
-    [Tags]           search smoke regression
+    [Tags]           search    smoke    regression
     Acessar a home page do site Amazon.com.br
     Verificar se o título da página fica "Amazon.com.br | Tudo pra você, de A a Z."
     Digitar o nome de produto "Xbox Series S" no campo de pesquisa
