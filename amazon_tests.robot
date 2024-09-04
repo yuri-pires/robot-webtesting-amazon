@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation  Essa suíte testa o site da Amazom.com.br
 Resource       amazon_resources.robot
+# Podemos adicionar quantos resources com keywords quisermos aqui para arquitetar nosso teste
 Test Setup     Abrir o navegador
 Test Teardown  Fechar o navegador
 

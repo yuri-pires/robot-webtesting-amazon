@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation    Arquivo contendo nossas frases(keywords) usadas no arquivo de teste
 Library          SeleniumLibrary
+#Resource         nome_do_outro_resource.robot // Assim utilizamos resources de outro arquivo de Resource, quantos forem necessários
 
 *** Variables ***
 ${BROWSER}           firefox
@@ -67,3 +68,14 @@ E o texto "Eletrônicos e Tecnologia" deve ser exibido na página
 
 E a categoria "Computadores e Informática" deve ser exibida na página
     Verificar se aparece a categoria "Computadores e Informática"
+
+Quando pesquisar pelo produto "Xbox Series S"
+    Digitar o nome de produto "Xbox Series S" no campo de pesquisa
+    Clicar no botão de pesquisa 
+
+Então o título da página deve ficar "Amazon.com.br : Xbox Series S"''
+    Verificar se o título da página fica "Amazon.com.br : Xbox Series S"
+
+E um produto da linha "Xbox Series S" deve ser mostrado na página
+    O sistema deve exibir a tela com o resultado da pesquisa contendo "Xbox Series S"
+    

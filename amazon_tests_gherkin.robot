@@ -15,12 +15,12 @@ CT 01 - Acesso ao menu "Eletrônicos"
     E o texto "Eletrônicos e Tecnologia" deve ser exibido na página
     E a categoria "Computadores e Informática" deve ser exibida na página
 
-# CT 02 - Pesquisa de um Produto
-#     [Documentation]  Este teste pesquisa por um Produto e valida que ele aparece
-#     ...              em tela dentro da lista de produtos achados.
-#     [Tags]           search    smoke    regression
-#     Dado que estou na home page da Amazon.com.br
-#     Quando pesquisar pelo produto "Xbox Series S"
-#     Então o título da página deve ficar "Amazon.com.br : Xbox Series S
-#     E um produto da linha "Xbox Series S" deve ser mostrado na página
+CT 02 - Pesquisa de um Produto
+    [Documentation]  Este teste pesquisa por um Produto e valida que ele aparece
+    ...              em tela dentro da lista de produtos achados.
+    [Tags]           search    smoke    regression
+    Dado que estou na home page da Amazon.com.br
+    Quando pesquisar pelo produto "Xbox Series S"
+    Então o título da página deve ficar "Amazon.com.br : Xbox Series S"
+    E um produto da linha "Xbox Series S" deve ser mostrado na página
 
