@@ -1,0 +1,28 @@
+1725202341173	geckodriver	INFO	Listening on 127.0.0.1:50303
+1725202341188	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c1/rtnp9gss02l512gqx9tp_kkw0000gn/T/rust_mozprofilezt10Yc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1725202341482	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1725202341741	Marionette	INFO	Listening on port 50311
+WebDriver BiDi listening on ws://127.0.0.1:50304
+Read port: 50311
+1725202341911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50304/devtools/browser/f4fcb45b-8b0f-4dc5-a86d-75ffb17993bf
+JavaScript warning: https://www.amazon.com.br/, line 1969: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1725202343883	Marionette	INFO	Stopped listening on port 50311
+JavaScript warning: https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery, line 100: Script terminated by timeout at:
+triggerHandler@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:100:35
+data/<@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:64:119
+each@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:45:345
+each@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:38:499
+data@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:64:76
+loadHiResImage/<@https://m.media-amazon.com/images/I/11B2bsTfmvL._RC|11Y+5x+kkTL.js,51XFQXG4llL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01meRT+S4PL.js,11aD5q6kNBL.js,11rRjDLdAVL.js,51LGf0aHP5L.js,11nAhXzgUmL.js,11UNP9ncXuL.js,113pYUOav3L.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21eKR4hvwNL.js,01Q4S7ptbiL.js,51XuQjpKb8L.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,21xlsLy-PNL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,315n+VmgJ3L.js,01tvglXfQOL.js,11jxZ9ouCoL.js,01fBsnBQx0L.js_.js?AUIClients/AmazonUI&88n9Ttiw#750578-T2.813765-T2.835613-T4.678508-T1.1007072-T1:89:463
+each@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:45:345
+each@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:38:499
+loadHiResImage@https://m.media-amazon.com/images/I/11B2bsTfmvL._RC|11Y+5x+kkTL.js,51XFQXG4llL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01meRT+S4PL.js,11aD5q6kNBL.js,11rRjDLdAVL.js,51LGf0aHP5L.js,11nAhXzgUmL.js,11UNP9ncXuL.js,113pYUOav3L.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21eKR4hvwNL.js,01Q4S7ptbiL.js,51XuQjpKb8L.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,21xlsLy-PNL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,315n+VmgJ3L.js,01tvglXfQOL.js,11jxZ9ouCoL.js,01fBsnBQx0L.js_.js?AUIClients/AmazonUI&88n9Ttiw#750578-T2.813765-T2.835613-T4.678508-T1.1007072-T1:89:371
+@https://www.amazon.com.br/:190:435
+n@https://www.amazon.com.br/:110:307
+M/</<@https://www.amazon.com.br/:112:111
+z@https://www.amazon.com.br/:113:278
+

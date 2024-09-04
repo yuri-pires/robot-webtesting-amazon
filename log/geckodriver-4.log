@@ -1,0 +1,18 @@
+1725237887558	geckodriver	INFO	Listening on 127.0.0.1:50942
+1725237887574	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c1/rtnp9gss02l512gqx9tp_kkw0000gn/T/rust_mozprofilewUw4XL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1725237887886	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1725237888157	Marionette	INFO	Listening on port 50954
+WebDriver BiDi listening on ws://127.0.0.1:50943
+Read port: 50954
+1725237888349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50943/devtools/browser/75fb6e79-cff5-4eb2-9038-864bf4df6e11
+JavaScript warning: https://www.amazon.com.br/, line 1973: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/81l6Jv+52XL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3590: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://www.amazon.com.br/, line 1921: Script terminated by timeout at:
+l@https://www.amazon.com.br/:1921:262
+
+1725237904109	Marionette	INFO	Stopped listening on port 50954
