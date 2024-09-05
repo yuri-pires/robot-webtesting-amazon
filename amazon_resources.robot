@@ -48,6 +48,13 @@ Clicar no botão de pesquisa
 
 O sistema deve exibir a tela com o resultado da pesquisa contendo "${PRODUTO_NOME}"
     Wait Until Element Is Visible    (//span[contains(.,'${PRODUTO_NOME}')])[3]
+
+Adicionar o produto "${PRODUTO_NOME}" no carrinho
+    Click Element    locator=//span[@class='a-size-base-plus a-color-base a-text-normal'][contains(.,'${PRODUTO_NOME}')]
+    Click Element    locator=add-to-cart-button
+
+Verificar se o produto "Console Xbox Series S" foi adicionado com sucesso
+    Wait Until Page Contains Element    locator=//h1[contains(.,'Adicionado ao carrinho')]
     
 ######### Gherkin Steps ############################################
 
